@@ -1,0 +1,179 @@
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Raleway;
+}
+h3{
+	font-size: 14px;
+	font-weight: bold;
+}
+h5{
+	font-size: 10px;
+	text-transform: uppercase;
+}
+h6{
+	font-size: 9px;
+}
+
+p{
+	font-family: "Open Sans";
+	font-size: 8px;
+}
+ul{
+	list-style-type: none;
+	font-family: "Open Sans";
+	font-size: 8px;
+}
+body{
+	width: 98%;
+	margin: 0 auto;
+	padding: 2%;
+	position: absolute;
+}
+footer{
+	background-color: #0B243B;
+	color: gray;
+	padding: 1em;
+}
+footer article {
+	display: inline;
+}
+footer article p{
+	display: inline-block;
+}
+footer, header{
+	padding: 1em;
+	position: relative;
+	margin: 0 auto;
+}
+header{
+	
+}
+nav {
+	font-family: "Raleway";
+	font-size: 12px;
+	float: right;
+	margin: auto;
+	position: relative;
+}
+nav ul li{
+	display: inline;
+	float: right;
+	margin:0.5em;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+nav a{
+	text-decoration: none;
+	color:gray;
+}
+.buscador{
+	display: inline;
+	position: relative;
+	top:-1.2em;
+	
+}
+.buscador fieldset{
+	border:none;
+}
+.buscador fieldset p{
+	display: inline;
+}
+.caracteristicas{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	width: 85%
+
+}
+.caracteristicas article{
+	display: inline-block;
+	margin: 0.15em;
+}
+.caracteristicas article p{
+	display: inline-block;
+	width: 55%;
+}
+.caracteristicas span{
+	border-radius: 100%;
+	color: white;
+	font-size: 50px;
+	margin: 2px;
+	padding:  0.1em 0.26em;
+	display: inline-block;
+}
+.circulos1{
+	background-color: red;
+}
+.circulos2{
+	background-color: yellow;
+}
+.circulos3{
+	background-color: orange;
+}
+.circulos4{
+	background-color: violet;
+}
+.caracteristicas span:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.caracteristicas span {
+ -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
+
+
+}
+.imagenes-enteras{
+	
+}
+.precios{
+
+}
+.precios ul{
+	text-align: left;	
+}
+.precios ul li{
+	
+}
+.precios ul span{
+	color: #58D3F7;
+	font-weight: bold;
+	text-align: right;
+	font-size: 10px;
+}
+.publicidad{
+	background-color: #0B2161;
+	font-color: white;
+	height: 30%;
+	margin: 0px;
+	padding: auto;
+	text-align: center;
+	width: 100%;
+}
+.publicidad article{
+	margin:  auto;
+	padding: 3em;
+}
+.publicidad article h3{
+	color: #fff;
+	display: inline;
+	font-size: 20px;
+}
+.publicidad article h3 span{
+	color: #58D3F7;
+	font-weight: bold;
+}
+.slider{
+	width: 85%;
+	display: inline-block;
+	margin:0 auto;
+	text-align: center;
+}
+.slider article{
+
+}
+
+
